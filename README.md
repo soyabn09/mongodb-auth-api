@@ -6,7 +6,7 @@ An Authentication API with MongoDB Application.
 
 ```bash
 git clone https://github.com/soyabn09/mongodb-auth-api.git
-npm install //or yarn install
+npm install or yarn install
 yarn start
 ```
 
