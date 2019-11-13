@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Register - Mongodb Auth API</title>
+    <meta name="description" content="Register - Mongodb Auth API" />
+    <link
+      id="favicon"
+      rel="icon"
+      href="https://glitch.com/edit/favicon-app.ico"
+      type="image/x-icon"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <style>
+      body {
+        margin: 2em;
+      }
+    </style>
+    <h1><u>Register Form</u></h1>
+    <form method="POST" action="/users">
+      <input type="text" name="name" placeholder="Name" />
+      <br />
+      <br />
+      <input type="text" name="email" placeholder="Email" />
+      <br />
+      <br />
+      <input type="password" name="password" placeholder="Password" />
+      <br />
+      <br />
+      <input type="submit" />
+      <p>Already have an account? <a href="/">LOGIN</a></p>
+    </form>
+  </body>
+</html>
