@@ -1,0 +1,24 @@
+{
+  "name": "Auth",
+  "version": "1.0.0",
+  "description": "Auth App",
+  "main": "index.js",
+  "scripts": {
+    "start": "env-cmd -f ./.env nodemon src/app.js"
+  },
+  "author": "Soyab Nandhla",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongodb": "^3.3.4",
+    "mongoose": "^5.7.9",
+    "bcryptjs": "^2.4.3",
+    "validator": "^12.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.0.1",
+    "nodemon": "^1.19.3"
+  }
+}
