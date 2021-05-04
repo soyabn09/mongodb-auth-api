@@ -11,7 +11,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "mongodb": "^3.5.5",
-    "mongoose": "^5.12.2",
+    "mongoose": "^5.12.3",
     "bcryptjs": "^2.4.3",
     "validator": "^13.6.0",
     "jsonwebtoken": "^8.5.1",
